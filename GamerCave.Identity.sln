@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GamerCave.Identity", "GamerCave.Identity\GamerCave.Identity.csproj", "{18B78A78-0968-40B1-8029-170D6DF271A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{196F52AF-7649-4905-B86E-B7A65B72EF17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{A1D3B90C-5C8F-4515-A722-181EB37F7EFF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GamerCave.Identity.Domain", "GamerCave.Identity.Domain\GamerCave.Identity.Domain.csproj", "{B1DCAE8D-3589-4527-ACD1-2816892BCAC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{83BB2A1C-CADB-4437-B967-E634468320A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GamerCave.Identity.Application", "GamerCave.Identity.Application\GamerCave.Identity.Application.csproj", "{920E162B-C505-452C-9FA8-C23F439D3F7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{C7AEA061-E45F-44D6-B368-C0B3B66C3B71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{CA61E5A5-B581-4613-ACC4-18C2C9F95913}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GamerCave.Identity.Infra.Data", "GamerCave.Identity.Infra.Data\GamerCave.Identity.Infra.Data.csproj", "{0AE74550-7B26-4F66-B7DC-1FD6E5A78FC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - CrossCutting", "4.2 - CrossCutting", "{18034C13-4E82-41D0-AB1B-AA62F7836244}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2.1 - IoC", "4.2.1 - IoC", "{95B13570-EFDE-475A-BAC4-77AFFEB8FE7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2.2 - NotificationResult", "4.2.2 - NotificationResult", "{CC33885E-04B0-4819-8EDA-009219653FE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamerCave.Identity.Infra.CrossCutting.NoficationResult", "GamerCave.Identity.Infra.CrossCutting.NoficationResult\GamerCave.Identity.Infra.CrossCutting.NoficationResult.csproj", "{EC8C1AF0-DD33-40EA-8565-AD3CF8F0231C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Tests", "5 - Tests", "{0415F113-4FA3-41CE-A159-93FA7F76AB44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamerCave.Identity.Tests", "GamerCave.Identity.Tests\GamerCave.Identity.Tests.csproj", "{D09B7E2E-4AEE-4077-8B13-21A9CDD1E829}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18B78A78-0968-40B1-8029-170D6DF271A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18B78A78-0968-40B1-8029-170D6DF271A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18B78A78-0968-40B1-8029-170D6DF271A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18B78A78-0968-40B1-8029-170D6DF271A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1DCAE8D-3589-4527-ACD1-2816892BCAC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1DCAE8D-3589-4527-ACD1-2816892BCAC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1DCAE8D-3589-4527-ACD1-2816892BCAC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1DCAE8D-3589-4527-ACD1-2816892BCAC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{920E162B-C505-452C-9FA8-C23F439D3F7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{920E162B-C505-452C-9FA8-C23F439D3F7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{920E162B-C505-452C-9FA8-C23F439D3F7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{920E162B-C505-452C-9FA8-C23F439D3F7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AE74550-7B26-4F66-B7DC-1FD6E5A78FC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AE74550-7B26-4F66-B7DC-1FD6E5A78FC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AE74550-7B26-4F66-B7DC-1FD6E5A78FC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AE74550-7B26-4F66-B7DC-1FD6E5A78FC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC8C1AF0-DD33-40EA-8565-AD3CF8F0231C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC8C1AF0-DD33-40EA-8565-AD3CF8F0231C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC8C1AF0-DD33-40EA-8565-AD3CF8F0231C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC8C1AF0-DD33-40EA-8565-AD3CF8F0231C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D09B7E2E-4AEE-4077-8B13-21A9CDD1E829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D09B7E2E-4AEE-4077-8B13-21A9CDD1E829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D09B7E2E-4AEE-4077-8B13-21A9CDD1E829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D09B7E2E-4AEE-4077-8B13-21A9CDD1E829}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{18B78A78-0968-40B1-8029-170D6DF271A5} = {196F52AF-7649-4905-B86E-B7A65B72EF17}
+		{B1DCAE8D-3589-4527-ACD1-2816892BCAC3} = {A1D3B90C-5C8F-4515-A722-181EB37F7EFF}
+		{920E162B-C505-452C-9FA8-C23F439D3F7D} = {83BB2A1C-CADB-4437-B967-E634468320A6}
+		{CA61E5A5-B581-4613-ACC4-18C2C9F95913} = {C7AEA061-E45F-44D6-B368-C0B3B66C3B71}
+		{0AE74550-7B26-4F66-B7DC-1FD6E5A78FC0} = {CA61E5A5-B581-4613-ACC4-18C2C9F95913}
+		{18034C13-4E82-41D0-AB1B-AA62F7836244} = {C7AEA061-E45F-44D6-B368-C0B3B66C3B71}
+		{95B13570-EFDE-475A-BAC4-77AFFEB8FE7D} = {18034C13-4E82-41D0-AB1B-AA62F7836244}
+		{CC33885E-04B0-4819-8EDA-009219653FE9} = {18034C13-4E82-41D0-AB1B-AA62F7836244}
+		{EC8C1AF0-DD33-40EA-8565-AD3CF8F0231C} = {CC33885E-04B0-4819-8EDA-009219653FE9}
+		{D09B7E2E-4AEE-4077-8B13-21A9CDD1E829} = {0415F113-4FA3-41CE-A159-93FA7F76AB44}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {276E926F-A7E4-4FDC-9CEF-ABA50D1D95B8}
+	EndGlobalSection
+EndGlobal
